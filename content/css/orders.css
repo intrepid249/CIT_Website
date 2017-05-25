@@ -1,0 +1,127 @@
+body {
+	background-color:#aaa;
+	font-family: "Terminal Dosis Light", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, sans-serif;
+}
+
+a {
+	text-decoration:none;
+}
+
+ul {
+	list-style:none;
+}
+
+.container {
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:white;
+}
+
+.header {
+	background-color:#6a9;
+	padding: 20px;
+	font-size:36px;
+	text-align:center;
+}
+
+.nav {
+	float: left;
+}
+
+.main {
+	float: right;
+	width:80%;
+}
+
+.content-header {
+}
+
+.content-header-text {
+	width:65%;
+	height:20px;
+	padding:10px;
+	padding-left:30px;
+	background-color:#666;
+	color:white;
+	float:left;
+	margin-bottom:20px;
+}
+
+.content-header-deco {
+	width:20%;
+	height:30px;
+	background-color:#f00;
+}
+
+.content-item {
+	float:left;
+	clear:both;
+	height:content;
+	margin-bottom:20px;
+	width:90%;
+}
+
+.label-left {
+	background-color:#f3574b;
+	color:white;
+	text-align:left;
+	padding:20px;
+	padding-left:30px;
+	margin-right:0;
+	border-bottom-right-radius:30px;
+	width:90px;
+	height:40px;
+	float:left;
+}
+
+.form-input {
+	padding:10px;
+	padding-left:110px;
+	display:inline-block;
+	float: left;
+	width:60%;
+}
+
+.form-sub-label-container {
+	vertical-align:top;
+	display:inline-block;
+	margin-right:5px;
+	padding-right:15px;
+}
+
+.form-sub-label-container input {
+	width:100%;
+}
+
+.form-sub-label {
+	font-size:11px;
+	color:#9a9a9a;
+	display:inline-block;
+}
+
+.form-address-table {
+	padding:10px;
+	padding-left:110px;
+	display:inline-block;
+	float: left;
+	width:360px;
+}
+
+.form-address-table .form-sub-label-container {
+	vertical-align:top;
+	display:inline-block;
+	margin-right:5px;
+	padding-right:15px;
+	width:100%;
+}
+
+.footer {
+	clear:both;
+	font-size:10px;
+	color:#666;
+	padding-right:10px;
+	text-align:right;
+	border:groove;
+	background-color:#ccc;
+}

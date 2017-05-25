@@ -1,0 +1,97 @@
+body {
+	background-color:#aaa;
+	font-family: "Terminal Dosis Light", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, sans-serif;
+}
+
+a {
+	text-decoration:none;
+}
+
+h1, h2, h3 {
+	margin:0;
+}
+
+a.button {
+	-webkit-appearance: button;
+	color: initial;
+	text-decoration: inherit;
+	padding: 0px 10px 0px 10px;
+}
+
+.container {
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:white;
+}
+
+.header {
+	background-color:#6a9;
+	padding: 20px;
+	font-size:36px;
+	text-align:center;
+}
+
+.content {
+	
+}
+
+.nav {
+	float: left;
+}
+
+.nav ul {
+	list-style-type:none;
+	padding-left:20px;
+}
+
+.main {
+	float: right;
+	padding-left:10px;
+	padding-right:25px;
+	width:90%;
+}
+
+.main ul {
+	list-style-type:none;
+}
+
+.footer {
+	clear:both;
+	padding-right:10px;
+	color:#666;
+	font-size:10px;
+	text-align:right;
+	border:groove;
+	background-color:#ccc;
+}
+
+.shop-container {
+	
+}
+
+.shop-container li {
+	clear:both;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.list-node {
+	
+}
+
+.image-container {
+	margin-top:20px;
+	width:150px;
+	height:150px;
+	float:left;
+}
+
+.image-container img {
+	width:auto;
+	height:100%;
+}
+
+.image-description {
+	
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gameshop Pro</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="title" content="Gameshop Pro">
+	<meta name="author" content="Jack McCall">
+    <script src="../javascript/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/orders.css">
+</head>
+
+<body>
+	<div class="container">
+    	<div class="header">
+        	Gameshop Pro
+        </div>
+        <div>
+        	<div class="nav">
+            	<ul>
+                	<li><a href="../../index.html">Home</a></li>
+                </ul>
+            </div>
+            <div class="main">
+                <ul>
+                    <li class="content-header">
+                        <div class="content-header-text">Orders</div>
+                        <canvas width="20%" height="40" style="background-color:red"></canvas>
+                    </li>
+                    <li>
+                    	<div class="content-item">
+                            <div class="label-left">
+                                Full Name
+                            </div>
+                            <div class="form-input">
+                                <div class="form-sub-label-container">
+                                    <input name="title" id="fname">
+                                    <br>
+                                    <span class="form-sub-label">First Name</span>
+                                </div>
+                                <div class="form-sub-label-container">
+                                    <input name="title" id="surname">
+                                    <br>
+                                    <span class="form-sub-label">Surname</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                    	<div class="content-item">
+                            <div class="label-left">
+                                Billing Address
+                            </div>
+                            <table class="form-address-table">
+                            <tbody>
+                            	<tr>
+                                	<td colspan="2">
+                                    	<span class="form-sub-label-container">
+                                			<input name="title" id="address">
+                                    		<br>
+                                    		<span class="form-sub-label">Address</span>
+                                		</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                	<td colspan="2">
+                                    	<span class="form-sub-label-container">
+                                			<input name="title" id="address2">
+                                    		<br>
+                                    		<span class="form-sub-label">Address 2</span>
+                                		</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                	<td width="45%" style="padding-right:5%">
+                                    	<span class="form-sub-label-container">
+                                			<input name="title" id="city">
+                                    		<br>
+                                    		<span class="form-sub-label">City</span>
+                                		</span>
+                                    </td>
+                                    <td>
+                                    	<span class="form-sub-label-container">
+                                			<select name="title">
+                                            	<option value="null"></option>
+                                            	<option value="ACT">ACT</option>
+                                                <option value="NSW">NSW</option>
+                                                <option value="NT">NT</option>
+                                                <option value="QLD">QLD</option>
+                                                <option value="SA">SA</option>
+                                                <option value="TAS">Tas</option>
+                                                <option value="VIC">Vic</option>
+                                                <option value="WA">WA</option>
+                                            </select>
+                                    		<br>
+                                    		<span class="form-sub-label">State</span>
+                                		</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                	<td>
+                                    	<span class="form-sub-label-container">
+                                			<input name="title" id="postcode">
+                                    		<br>
+                                    		<span class="form-sub-label">Postcode</span>
+                                		</span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            </table>
+                        </div>
+                    </li>
+                    <li>
+                    	<div class="content-item">
+                            <div class="label-left">
+                                Billing Info
+                            </div>
+                            <div class="form-input">
+                                <div class="form-sub-label-container" style="width:240px">
+                                	<input name="title" id="cardnum">
+                                    <br>
+                                    <div class="form-sub-label">Card Number</div>
+                                </div>
+                                <br>
+                                <div class="form-sub-label-container" style="width:160px">
+                                	<input type="month" name="title" id="expdate">
+                                    <br>
+                                    <div class="form-sub-label">Expiry</div>
+                                </div>
+                                <div class="form-sub-label-container" style="width:50px">
+                                	<input name="title" id="ccv">
+                                    <br>
+                                    <div class="form-sub-label">CCV</div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                    	<div class="content-item">
+                        	<button type="submit" style="margin-left:30%" onClick="purchase()">Purchase</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+        	Copyright &copy; Jack McCall 2017 - CIT214953
+        </div>
+    </div>
+</body>
+</html>
