@@ -57,7 +57,7 @@ ul {
 .content-item {
 	float:left;
 	clear:both;
-	height:content;
+	overflow:visible;
 	margin-bottom:20px;
 	width:90%;
 }
@@ -98,6 +98,11 @@ ul {
 	font-size:11px;
 	color:#9a9a9a;
 	display:inline-block;
+}
+
+.form-city {
+	width:45%;
+	padding-right:5%;
 }
 
 .form-address-table {
